@@ -15,6 +15,15 @@ class Lop extends Connection{
 		$sql="select * from lop";
 		return $this->query($sql);
 	}
+<<<<<<< HEAD
 
+=======
+	public function sua($data)
+	{
+		$sql="update lop set  khoi = :khoi where malop = :malop";
+		return $this->query($sql,$data);
+		
+	}
+>>>>>>> huy
 }
 ?>

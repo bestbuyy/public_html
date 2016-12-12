@@ -18,7 +18,11 @@
 	<td><?php echo $value['tenhocsinh']; ?></td>
 	<td><?php echo $value['ngaysinh']; ?></td>
 	<td><?php echo $value['lop']; ?></td>
+<<<<<<< HEAD
 	<td><span class="glyphicon glyphicon-remove">Xóa</span><span class="glyphicon glyphicon-edit">Sửa</span></td>
+=======
+	<td><span class="glyphicon glyphicon-remove">Xóa</span><a href="index.php?chucnang=6&id=<?php echo $value['mahocsinh'] ?>" class="glyphicon glyphicon-edit">Sửa</a></td>
+>>>>>>> huy
 
 	
 	</tr>

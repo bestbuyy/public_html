@@ -8,7 +8,11 @@ spl_autoload_register('loadclass');
 <html>
 <head>
 <meta charset="utf-8" />
+<<<<<<< HEAD
 <title> Website</title>
+=======
+<title> Website Tìm Việc Làm</title>
+>>>>>>> huy
 <link rel="stylesheet" href="js/jquery-ui.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
@@ -41,7 +45,12 @@ Danh sách menu
 	<option value="2">Thêm học sinh</option>
 	<option value="3">Danh sách lớp</option>
 	<option value="4">Thêm lớp</option>
+<<<<<<< HEAD
 	
+=======
+
+	<option value="6">Sửa thông tin học sinh</option>
+>>>>>>> huy
 </select></div>
 <div class="col-xs-3 "><button type="submit" >Chọn</button></div>
 	
@@ -67,6 +76,14 @@ if($mod)
 		include"module/lop/them.php";
 	}
 
+<<<<<<< HEAD
+=======
+	else if($mod=="6")
+	{
+		include"module/hocsinh/sua.php";
+	}
+
+>>>>>>> huy
 
 	
 }
