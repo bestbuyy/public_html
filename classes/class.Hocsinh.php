@@ -5,6 +5,7 @@ class Hocsinh extends Connection{
 		$sql="INSERT INTO `hocsinh` (`tenhocsinh`, `ngaysinh`,`lop`) VALUES (:tenhocsinh, :ngaysinh,:malop)";
 		return $this->query($sql,$data);
 	}
+	
 	public function laydulieu()
 	{
 		$sql="select * from hocsinh";
