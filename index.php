@@ -9,10 +9,15 @@ spl_autoload_register('loadclass');
 <head>
 <meta charset="utf-8" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 <title> Website</title>
 =======
 <title> Website Tìm Việc Làm</title>
 >>>>>>> huy
+=======
+<title> Website Tìm Việc Làm</title>
+<link rel="stylesheet" href="css/style.css">
+>>>>>>> cuong
 <link rel="stylesheet" href="js/jquery-ui.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
@@ -31,6 +36,7 @@ spl_autoload_register('loadclass');
 <header>
 <!-- menu -->
 <section class="menu">
+<<<<<<< HEAD
 Danh sách menu
 </section>
 <!-- end-menu -->
@@ -56,6 +62,19 @@ Danh sách menu
 	
 </form>
 <?php
+=======
+<?php
+include('module/header.php');
+?>
+</section>
+<!-- end-menu -->
+</header>
+<!--content-->
+<section class="content">
+
+<?php
+
+>>>>>>> cuong
 $mod= getIndex('chucnang');
 if($mod)
 {
@@ -67,6 +86,17 @@ if($mod)
 	{
 		include"module/hocsinh/them.php";
 	}
+<<<<<<< HEAD
+=======
+	else if($mod=="xoa")
+	{
+		include"module/hocsinh/xoa.php";
+	}
+	else if($mod=="xoalop")
+	{
+		include"module/lop/xoa.php";
+	}
+>>>>>>> cuong
 	else if($mod=="3")
 	{
 		include"module/lop/danhsach.php";
@@ -77,6 +107,7 @@ if($mod)
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	else if($mod=="6")
 	{
@@ -84,6 +115,8 @@ if($mod)
 	}
 
 >>>>>>> huy
+=======
+>>>>>>> cuong
 
 	
 }
